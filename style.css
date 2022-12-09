@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+header nav ul li a{
+  opacity: 0.5;
+}
+
+header nav ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+main .principal h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+  font-weight: normal;
+  width: 490px;
+}
+
+main .principal h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+main .principal h1, header nav ul {
+  font-family: "Mulish", sans-serif;
+}
+
+main .principal{
+  display: flex;
+  justify-content: space-between;
+}
+
+main .principal p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  margin: 40px 0;
+}
+
+main .principal button {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+
+  background: #69B99D;
+  border: 0;
+  padding: 14px 32px 15px 32px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+main .principal button:hover {
+  background: #4EA788;
+}
+
+a{
+  color: #1f1534;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
